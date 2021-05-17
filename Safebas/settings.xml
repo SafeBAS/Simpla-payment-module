@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<name>
+		Safebas
+	</name>
+	<settings>
+		<variable>receiver</variable>
+		<name>Адрес кошелька получателя</name>
+	</settings>
+	<settings>
+		<variable>apikey</variable>
+		<name>API ключ etherscan.io</name>
+	</settings>	
+	<settings>
+		<variable>mode</variable>
+		<name>Режим</name>
+		<options>
+			<name>Тестовая сеть Ethereum(Ropsten)</name>
+			<value>3</value>
+		</options>
+		<options>
+			<name>Основная сеть Ethereum</name>
+			<value>1</value>
+		</options>		
+	</settings>		
+</module>
